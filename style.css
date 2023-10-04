@@ -75,7 +75,9 @@ body{
 .menu{
     display: flex;
     flex-wrap: nowrap;
+    overflow-x: scroll;
 }
+
 .menu_button{
     background-color: #F8F8F8;
     cursor: pointer;
