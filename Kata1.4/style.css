@@ -16,7 +16,7 @@ body{
     font-family: 'TTLakes'; 
     font-size: 16px; 
     line-height: 24px; 
-    overflow: hidden;
+    overflow: hidden; 
     font-size: 16px;
     letter-spacing: -0.2px;
     font-weight: 500;
@@ -49,7 +49,7 @@ body{
 .navagation_Top{
     display: flex;
     flex: content;
-    flex-direction: column;
+    flex-direction: column; 
 }
 .sideMenu_header_navigation{
     display: flex;
