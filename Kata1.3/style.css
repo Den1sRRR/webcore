@@ -1,10 +1,10 @@
 @font-face {
     font-family: "TTLakes";
-    src: url(Font/TTLakes/TTLakes-Regular.woff) format('truetype');
+    src: url(../Font/TTLakes/TTLakes-Regular.woff) format('truetype');
     font-weight: 200;
     font-style: normal;
 }
-body{
+body{ 
     font-family: 'TTLakes';
     font-size: 16px;
     line-height: 24px;
@@ -31,7 +31,7 @@ body{
 .header_buttons{
     display: none;
 }
-.navigation-left , .navigation-right{
+.navigation_left , .navigation_right{
     display: flex;
     align-items: center;
 }
@@ -67,7 +67,7 @@ body{
     letter-spacing: -0.6px;
     color: #1B1C21;
 }
-.title::before{
+.title::before{ 
     position: absolute;
     margin-left: -16px;
     content :  url("data:image/svg+xml;charset=UTF-8,%3csvg width='4' height='40' viewBox='0 0 4 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z' fill='%2341F6D7'/%3e%3c/svg%3e ");
@@ -144,34 +144,33 @@ body{
         padding: 18.59px 16px 15.09px 16px;
         background-color: #FFFFFF;
         justify-content: space-between;
-        border-bottom: 1px solid #D9FFF5;
+        border-bottom: 1px solid #D9FFF5; 
     }
-    .navigation-right  .buttonWitchText:first-of-type::after  {
+    .navigation_right  .buttonWitchText:first-of-type::after  {
         margin-left: -20px;
         position:absolute;
         display: block;
         content: url("data:image/svg+xml;charset=UTF-8,%3csvg width='2' height='32' viewBox='0 0 2 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='2' height='32' rx='1' fill='%23EAEAEA'/%3e%3c/svg%3e ");
     }
-    .navigation-right > .button-icon:nth-child(1) , 
-    .navigation-right > .button-icon:nth-child(2) ,
-     .navigation-right > .button-icon:nth-child(3){
+    .navigation_right > .button-icon:nth-child(1) , 
+    .navigation_right > .button-icon:nth-child(2) ,
+     .navigation_right > .button-icon:nth-child(3){
         display: none;
     }
     .blog{
         padding-top: 24px;
     }
     .text{
-        width: 288px;
-        display: block;
+        display: block; 
     }
     .blog{
         display: block;
     }
  }
  @media (min-width: 768px) and (max-width : 1119px) {
-    .navigation-right > .button-icon:nth-child(1) , 
-    .navigation-right > .button-icon:nth-child(2) ,
-     .navigation-right > .button-icon:nth-child(3){
+    .navigation_right > .button-icon:nth-child(1) , 
+    .navigation_right > .button-icon:nth-child(2) ,
+     .navigation_right > .button-icon:nth-child(3){
         display: block;
     }
     .navigation {
@@ -186,20 +185,20 @@ body{
         .menu_button:nth-last-child(3){
         display: none;
         }
-    .navigation-right .button-icon:nth-child(4)::before {
+    .navigation_right .button-icon:nth-child(4)::before {
         margin-left: -20px;
         position:absolute;
         display: block;
         content: url("data:image/svg+xml;charset=UTF-8,%3csvg width='2' height='32' viewBox='0 0 2 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='2' height='32' rx='1' fill='%23EAEAEA'/%3e%3c/svg%3e ");
     }
-    .navigation-right .button-icon:nth-child(4){
+    .navigation_right .button-icon:nth-child(4){
         margin: 20px;
-    }
-    .navigation-left .button-icon::after{
+    } 
+    .navigation_left .button-icon::after{
         margin-left: 20px;
         content: url("data:image/svg+xml;charset=UTF-8,%3csvg width='2' height='32' viewBox='0 0 2 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='2' height='32' rx='1' fill='%23EAEAEA'/%3e%3c/svg%3e ");
     }
-    .navigation-left .button-icon{
+    .navigation_left .button-icon{
         margin-right: 40px ;
         
     }
@@ -229,9 +228,9 @@ body{
  }
 
  @media (min-width: 1120px){
-    .navigation-right > .button-icon:nth-child(1) , 
-    .navigation-right > .button-icon:nth-child(2) ,
-     .navigation-right > .button-icon:nth-child(3){
+    .navigation_right > .button-icon:nth-child(1) , 
+    .navigation_right > .button-icon:nth-child(2) ,
+     .navigation_right > .button-icon:nth-child(3){
         display: none;
     }
     .header{
@@ -277,7 +276,7 @@ body{
         font-size: 16px;
         line-height: 24px;
     }
-    .title::before{
+    .title::before{ 
         position: absolute;
         margin-left: -32px;
     }
@@ -292,3 +291,5 @@ body{
         color: #1B1C21;
     }
  }
+
+ 
