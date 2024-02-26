@@ -29,14 +29,14 @@
                     <main class="sideMenu_Main">
                         <nav class="sideMenu_Main_navigation">
                             <ul class="sideMenu_list">
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Ремонт техники</a></button></li>
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Услуги и сервисы</a></button></li>
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Корпоративным клиентам</a></button></li>
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Продавцам техники</a></button></li>
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Партнерам</a></button></li>
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Производителям</a></button></li>
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Наши сервисные центры</a></button></li>
-                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link">Контакты</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Ремонт техники</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Услуги и сервисы</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Корпоративным клиентам</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Продавцам техники</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Партнерам</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Производителям</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Наши сервисные центры</a></button></li>
+                                <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Контакты</a></button></li>
                                
                             </ul>
                         </nav>
@@ -53,11 +53,16 @@
                     <article class="contacts">
                         <p class="copy_mail">mail@cps.com</p>
                         <p class="copy_number"><strong>8 800 890 8900</strong></p>
-                        <ul class="lang">
-                            <li class="lang_item">RU</a>
-                            <li class="lang_item">EN</a>
-                            <li class="lang_item">CH</a>
-                            </ul>
+                        <form class="lang">
+                            <input type="radio" id="ru" name="lang" class="lang_input" checked>
+                            <label for="ru" class="label_input">RU</label>
+
+                            <input type="radio" id="en" name="lang" class="lang_input" >
+                            <label for="en" class="label_input">EN</label>
+
+                            <input type="radio" id="ch" name="lang" class="lang_input">
+                            <label for="ch" class="label_input">CH</label>
+                        </form>
                     </article>
                 </footer>
             </div>

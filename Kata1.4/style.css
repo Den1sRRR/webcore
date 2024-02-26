@@ -136,8 +136,7 @@ letter-spacing: -0.6px;
 .contacts p:last-of-type{
     margin-bottom: 40px;
 }
-.sideMenu_button:focus::before {
-    
+.sideMenu_link:focus::before {
     left: 0;
     transform: translate(0px, -10px);
     position: absolute;
@@ -151,7 +150,7 @@ letter-spacing: -0.6px;
     transition: font-size 0.3s ease-out;
 }
 .sideMenu_link:focus {
-    background-color: aqua;
+    color: silver;
 }
 .sideMenu_link:hover{
     font-size: 17px;
@@ -161,12 +160,15 @@ letter-spacing: -0.6px;
 /* .lang .lang_item:first-child{
         color: #7E7E82;
  }  */
-.lang .lang_item:hover{
-    opacity: 0.33;
- } 
-
-.lang {
-    display: flex;
-    gap: 7px;
- }
-    
+ input[type=radio]{
+    display: none;
+}
+.lang_input{
+    color: #1B1C21;
+}
+.lang_input:checked + label{
+    color: #7E7E82;
+}
+.lang{
+    padding-top: 15px;
+}
