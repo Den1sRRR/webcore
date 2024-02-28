@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta name="keuwords"  content="Услуги">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="Услуги">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <title>Макет</title>
     </head>
 
     <body>
-        <header>
-
-        </header>
-
-        <main class="content">
+        <aside class="content">
             <div class="sideMenu">
 
-                <label class="navagation_Top">
-
+                <label class="navigation_Top">
                     <header class="sideMenu_header">
                         <nav class="sideMenu_header_navigation"> 
                             <button class="button-icon button-icon-burger"></button>
-                            <a href="#"><div class="button-logo button-icon-group"></div></a> 
+                            <a class="button-logo button-icon-group" href=""><img src="../Images/Group.svg" alt="Логотип компании CPS"></a>
                             <button class="button-icon button-icon-search"></button>
                         </nav>
                     </header>
@@ -37,7 +32,6 @@
                                 <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Производителям</a></button></li>
                                 <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Наши сервисные центры</a></button></li>
                                 <li class="sideMenu_list_item"><button class="sideMenu_button"><a class="sideMenu_link sideMenu__focus" href="#">Контакты</a></button></li>
-                               
                             </ul>
                         </nav>
                     </main>
@@ -51,13 +45,13 @@
                         <button class="button-icon button-icon-profile"></button>
                     </nav>
                     <article class="contacts">
-                        <p class="copy_mail">mail@cps.com</p>
-                        <p class="copy_number"><strong>8 800 890 8900</strong></p>
+                        <a href="mailto:mail@cps.com" class="copy_mail">mail@cps.com</a>
+                        <a href="tel:+78008908900" class="copy_number">8 800 890 8900</a>
                         <form class="lang">
                             <input type="radio" id="ru" name="lang" class="lang_input" checked>
                             <label for="ru" class="label_input">RU</label>
 
-                            <input type="radio" id="en" name="lang" class="lang_input" >
+                            <input type="radio" id="en" name="lang" class="lang_input">
                             <label for="en" class="label_input">EN</label>
 
                             <input type="radio" id="ch" name="lang" class="lang_input">
@@ -66,13 +60,6 @@
                     </article>
                 </footer>
             </div>
-            <article >
-            </article>
-        </main>
-
-        <footer>
-
-        </footer>
-
+        </aside>
     </body>
 </html>
