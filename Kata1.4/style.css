@@ -22,7 +22,6 @@ body{
     overflow: hidden; 
     font-size: 16px;
     letter-spacing: -0.2px;
-    /* font-weight: 500; */
     color: #1B1C21;
     background-color: #F8F8F8;
 }
@@ -146,9 +145,7 @@ letter-spacing: -0.6px;
     content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNCIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDQgMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNCA0QzQgMS43OTA4NiAyLjIwOTE0IDAgMCAwVjMyQzIuMjA5MTQgMzIgNCAzMC4yMDkxIDQgMjhWNFoiIGZpbGw9IiM0MUY2RDciLz4KPC9zdmc+Cg==");
     transition: transform 0.3s ease;
 }
-/* .sideMenu_button:focus {
-    color: #fd081c;
-} */
+
 .sideMenu_link{
     transition: font-size 0.3s ease-out;
 }
@@ -160,9 +157,6 @@ letter-spacing: -0.6px;
     color: #7E7E82;
 }
 
-/* .lang .lang_item:first-child{
-        color: #7E7E82;
- }  */
  input[type=radio]{
     display: none;
 }
